@@ -21,7 +21,7 @@
 }
 
 .main {
-  height: 88vh;
+  height: 86vh;
   position: relative;
 }
 
@@ -41,9 +41,20 @@
   text-align: center;
 }
 
+.main_form-input {
+  width: 580px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+
 .buttons {
   padding-top: 30px;
   text-align: center;
+}
+
+.bttn-1 {
+  margin-right: 8px;
 }
 
 .bttn-1,
@@ -54,8 +65,8 @@
   font-size: 15px;
   background-color: #f8f9fa;
   border: none;
-  border-radius: 5px;
-  padding-right: 20px 20px;
+  border-radius: 2px;
+  padding: 10px 20px;
   display: inline-block;
 }
 
@@ -83,15 +94,17 @@
 
 .footer_bovenste {
   display: block;
-  background-color: rgba(0, 0, 0, 0.158);
+  background-color: #00000017;
   padding: 12px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+  color: #000000a4;
+  border: 1px solid #00000021;
 }
 
 .footer_onderste {
   display: block;
-  background-color: rgba(0, 0, 0, 0.158);
+  background-color: #00000017;
 }
 
 .footer_links {
@@ -101,12 +114,18 @@
 .footer_rechts {
   display: flex;
   justify-content: flex-end;
+  padding-left: 220px;
 }
 
 .links_tekst,
 .rechts_tekst {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  color: #000;
+  color: #000000a4;
   font-size: 15px;
+}
+
+.links_tekst,
+.rechts_tekst {
+  padding: 14px 13px;
 }
