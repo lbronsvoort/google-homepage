@@ -16,7 +16,7 @@
   padding-left: 15px;
   margin-top: 20px;
   font-size: 13px;
-  color: #000;
+  color: rgba(0, 0, 0, 0.808);;
   text-decoration: none; 
 }
 
@@ -27,7 +27,7 @@
 
 .main_div {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, 50%);
 }
@@ -38,6 +38,47 @@
 
 .main_form {
   border-radius: 100px;
+  text-align: center;
+}
+
+.buttons {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.bttn-1,
+.bttn-2 {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.808);
+  font-size: 15px;
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 5px;
+  padding-right: 20px 20px;
+  display: inline-block;
+}
+
+.tekst {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.google-tekst {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.english,
+.frysk {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.english {
+  padding-right: 10px;
+  padding-left: 5px;
 }
 
 .footer_bovenste {
