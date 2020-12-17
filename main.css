@@ -34,6 +34,7 @@
 
 .main_logo {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .main_form {
@@ -41,11 +42,27 @@
   text-align: center;
 }
 
+.main_form-search {
+  width: 20px;
+  opacity: .4;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+
 .main_form-input {
   width: 580px;
   height: 40px;
   border: 1px solid #ddd;
   border-radius: 20px;
+}
+
+.main_form-keyboard {
+  width: 20px;
+  opacity: .4;
+  position: absolute;
+  top: 50%;
+  left: 94%;
 }
 
 .buttons {
